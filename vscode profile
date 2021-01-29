@@ -1,0 +1,75 @@
+{
+    "explorer.openEditors.visible": 0,
+    "editor.snippetSuggestions": "top",
+    //"emmet.showAbbreviationSuggestions": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": false,
+    "workbench.colorTheme": "Dracula",
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontSize": 14,
+    "files.autoSave": "off",
+    //"editor.fontFamily": "Operator Mono Lig",
+    //"editor.fontFamily": "Fira Mono",
+    "editor.fontFamily": "JetBrains Mono",
+    "markdown.preview.fontSize": 12,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": true,
+    "editor.semanticHighlighting.enabled": false,
+    "editor.minimap.enabled": false,
+    "eslint.enable": true,
+    // "files.exclude": { "**/.*": true },
+    "workbench.startupEditor": "newUntitledFile",
+    "emmet.includeLanguages":{
+      "javascript": "javascriptreact",
+      "erb": "html",
+      "ruby": "html"
+  },
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "scope": [
+            "comment",
+            "comment.block"
+          ],
+          "settings": {
+            "fontStyle": "italic",
+            //"foreground": "#ff1493"
+            "foreground": "#c9007c"
+          }
+        },
+        {
+          "scope": [
+            "keyword.operator.logical",
+            "keyword.operator.arithmetic",
+            "keyword.operator.assignment",
+            "keyword.operator.bitwise"
+          ],
+          "settings": {
+            "fontStyle": ""
+          }
+        }
+      ]
+    },
+    "todo-tree.tree.showScanModeButton": false,
+    "editor.lineHeight": 0,
+    "editor.fontSize": 16,
+    "editor.codeActionsOnSave": null,
+    "workbench.colorCustomizations": {
+      "[Dracula]": {
+          "editor.background": "#131313",
+          "sideBar.background": "#131313",
+          "activityBar.background": "#131313",
+          "statusBar.background": "#131313",
+          "menu.background": "#131313",
+          "panel.background": "#131313",
+          "titleBar.activeBackground": "#131313",
+          "tab.activeBackground": "#131313",
+          "tab.inactiveBackground": "#131313",
+          "terminal.background": "#000000"
+          
+      }
+  }
+  
+  }

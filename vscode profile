@@ -4,16 +4,19 @@
     //"emmet.showAbbreviationSuggestions": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.formatOnPaste": false,
-    "workbench.colorTheme": "Dracula",
+    "workbench.colorTheme": "Horizon Dark",
+    // "workbench.colorTheme": "Just Black",
     "window.zoomLevel": 0,
     "workbench.iconTheme": "vscode-icons",
     "editor.fontLigatures": true,
     "terminal.integrated.fontSize": 14,
     "files.autoSave": "off",
-    //"editor.fontFamily": "Operator Mono Lig",
-    //"editor.fontFamily": "Fira Mono",
-    "editor.fontFamily": "JetBrains Mono",
+    // "editor.fontFamily": "Operator Mono Lig",
+    "editor.fontFamily": "Fira Code",
+    // "editor.fontFamily": "JetBrains Mono",
     "markdown.preview.fontSize": 12,
+    "editor.lineHeight": 0,
+    "editor.fontSize": 13,
     "editor.tabSize": 2,
     "editor.detectIndentation": true,
     "editor.semanticHighlighting.enabled": false,
@@ -54,22 +57,62 @@
     },
     "todo-tree.tree.showScanModeButton": false,
     "editor.lineHeight": 0,
-    "editor.fontSize": 16,
     "editor.codeActionsOnSave": null,
     "workbench.colorCustomizations": {
-      "[Dracula]": {
-          "editor.background": "#131313",
-          "sideBar.background": "#131313",
-          "activityBar.background": "#131313",
-          "statusBar.background": "#131313",
-          "menu.background": "#131313",
-          "panel.background": "#131313",
-          "titleBar.activeBackground": "#131313",
-          "tab.activeBackground": "#131313",
-          "tab.inactiveBackground": "#131313",
-          "terminal.background": "#000000"
+      "[Dark-Dracula]": {
+          // "editor.background": "#131313",
+          // "editor.background": "#000000",
+          // "sideBar.background": "#131313",
+          // "activityBar.background": "#131313",
+          // "statusBar.background": "#131313",
+          // "menu.background": "#131313",
+          // "panel.background": "#131313",
+          // "titleBar.activeBackground": "#131313",
+          // "tab.activeBackground": "#131313",
+          // "tab.inactiveBackground": "#131313",
+          // "terminal.background": "#000000"
+
+          // "editor.background": "#131313",
+          "editor.background": "#000000",
+          "sideBar.background": "#000000",
+          "activityBar.background": "#000000",
+          "statusBar.background": "#000000",
+          "menu.background": "#000000",
+          "panel.background": "#000000",
+          "titleBar.activeBackground": "#000000",
+          "tab.activeBackground": "#000000",
+          "tab.inactiveBackground": "#000000",
+          "terminal.background": "#011238"
           
       }
-  }
+      "[Horizon Dark]": {
+        // "editor.background": "#131313",
+        // "editor.background": "#000000",
+        // "sideBar.background": "#131313",
+        // "activityBar.background": "#131313",
+        // "statusBar.background": "#131313",
+        // "menu.background": "#131313",
+        // "panel.background": "#131313",
+        // "titleBar.activeBackground": "#131313",
+        // "tab.activeBackground": "#131313",
+        // "tab.inactiveBackground": "#131313",
+        // "terminal.background": "#000000"
+
+        // "editor.background": "#131313",
+        "editor.background": "#000000",
+        "sideBar.background": "#000000",
+        "activityBar.background": "#000000",
+        "statusBar.background": "#000000",
+        "menu.background": "#000000",
+        "panel.background": "#000000",
+        "titleBar.activeBackground": "#000000",
+        "tab.activeBackground": "#000000",
+        "tab.inactiveBackground": "#000000",
+        "terminal.background": "#111111"
+        
+    }
+  },
+  "json.schemas": [
+  ]
   
-  }
+}
